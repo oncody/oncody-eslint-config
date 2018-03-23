@@ -1,0 +1,8 @@
+{
+  "name": "eslint-settings",
+  "version": "1.0.0",
+  "description": "My custom eslint settings",
+  "keywords": ["eslint"],
+  "author": "Cody Smith",
+  "license": "MIT"
+}
