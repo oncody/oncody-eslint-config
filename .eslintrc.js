@@ -2,7 +2,9 @@ module.exports = {
   parserOptions: {
     ecmaVersion: 6,
     sourceType: 'module',
-    ecmaFeatures: {impliedStrict: true}
+    ecmaFeatures: {
+      impliedStrict: true
+    }
   },
   rules: {
     // Possible Errors
@@ -41,7 +43,9 @@ module.exports = {
     'valid-jsdoc': 'error',
     'valid-typeof': [
       'error',
-      {requireStringLiterals: true}
+      {
+        requireStringLiterals: true
+      }
     ],
 
     // Best Practices
@@ -55,7 +59,9 @@ module.exports = {
     ],
     'consistent-return': [
       'error',
-      {treatUndefinedAsUnspecified: true}
+      {
+        treatUndefinedAsUnspecified: true
+      }
     ],
     'curly': 'error',
     'default-case': 'error',
@@ -69,7 +75,9 @@ module.exports = {
     'no-div-regex': 'error',
     'no-else-return': [
       'error',
-      {allowElseIf: false}
+      {
+        allowElseIf: false
+      }
     ],
     'no-empty-function': 'error',
     'no-empty-pattern': 'error',
@@ -154,7 +162,9 @@ module.exports = {
     'no-restricted-globals': 'off',
     'no-shadow': [
       'error',
-      {builtinGlobals: true}
+      {
+        builtinGlobals: true
+      }
     ],
     'no-shadow-restricted-names': 'error',
     'no-undef': 'off',
@@ -223,7 +233,9 @@ module.exports = {
     'indent': [
       'error',
       2,
-      {SwitchCase: 1}
+      {
+        SwitchCase: 1
+      }
     ],
     'jsx-quotes': 'off',
     'key-spacing': 'error',
@@ -238,7 +250,9 @@ module.exports = {
     ],
     'max-len': [
       'error',
-      {code: 80}
+      {
+        code: 80
+      }
     ],
     'max-lines': [
       'warn',
@@ -275,7 +289,9 @@ module.exports = {
     'no-multi-assign': 'error',
     'no-multiple-empty-lines': [
       'error',
-      {max: 1}
+      {
+        max: 1
+      }
     ],
     'no-negated-condition': 'error',
     'no-nested-ternary': 'error',
@@ -290,12 +306,19 @@ module.exports = {
     'no-trailing-spaces': 'error',
     'no-underscore-dangle': [
       'error',
-      {enforceInMethodNames: true}
+      {
+        enforceInMethodNames: true
+      }
     ],
     'no-unneeded-ternary': 'error',
     'no-whitespace-before-property': 'error',
     'nonblock-statement-body-position': 'off',
-    'object-curly-newline': 'error',
+    'object-curly-newline': [
+      'error',
+      {
+        minProperties: 1
+      }
+    ],
     'object-curly-spacing': 'error',
     'object-property-newline': 'error',
     'one-var': [
