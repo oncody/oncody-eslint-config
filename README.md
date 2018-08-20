@@ -1,2 +1,2 @@
-# eslint-settings
-My custom eslint settings
+# oncody-eslint-config
+Cody Smith's custom eslint settings
