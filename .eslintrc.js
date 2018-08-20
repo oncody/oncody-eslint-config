@@ -175,6 +175,7 @@ module.exports = {
       'error',
       {
         classes: true,
+        functions: false,
         variables: true
       }
     ],
