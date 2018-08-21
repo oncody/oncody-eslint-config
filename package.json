@@ -1,6 +1,6 @@
 {
   "name": "oncody-eslint-config",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "license": "MIT",
   "description": "Cody Smith's custom eslint settings",
   "author": "Cody Smith",
