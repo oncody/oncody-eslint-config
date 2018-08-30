@@ -182,7 +182,7 @@ module.exports = {
 
     // Node.js and CommonJS
     'callback-return': 'error',
-    'global-require': 'error',
+    'global-require': 'warn',
     'handle-callback-err': [
       'error',
       '^(err|error)$'
@@ -191,7 +191,7 @@ module.exports = {
     'no-mixed-requires': 'error',
     'no-new-require': 'error',
     'no-path-concat': 'error',
-    'no-process-env': 'error',
+    'no-process-env': 'warn',
     'no-process-exit': 'error',
     'no-restricted-modules': 'off',
     'no-sync': 'error',
