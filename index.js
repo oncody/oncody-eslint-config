@@ -91,7 +91,7 @@ module.exports = {
     'no-global-assign': 'error',
     // Maybe turn this to 'error'
     'no-implicit-coercion': 'warn',
-    'no-implicit-globals': 'error',
+    'no-implicit-globals': 'warn',
     'no-implied-eval': 'error',
     'no-invalid-this': 'error',
     'no-iterator': 'error',
