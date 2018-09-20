@@ -91,7 +91,7 @@ module.exports = {
     'no-global-assign': 'error',
     // Maybe turn this to 'error'
     'no-implicit-coercion': 'warn',
-    'no-implicit-globals': 'warn',
+    'no-implicit-globals': 'off',
     'no-implied-eval': 'error',
     'no-invalid-this': 'error',
     'no-iterator': 'error',
@@ -283,7 +283,12 @@ module.exports = {
       'separate-lines'
     ],
     'multiline-ternary': 'off',
-    'new-cap': 'warn',
+    'new-cap': [
+      'warn',
+      {
+        properties: false
+      }
+    ],
     'new-parens': 'error',
     'newline-per-chained-call': 'error',
     'no-array-constructor': 'error',
