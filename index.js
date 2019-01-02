@@ -135,7 +135,7 @@ module.exports = {
     'error',
     'as-needed'
   ],
-  'require-await': 'error',
+  'require-await': 'off',
   'vars-on-top': 'error',
   'wrap-iife': 'error',
   'yoda': 'error',
